@@ -1,0 +1,157 @@
+body{
+	background-color:#f6f6f6;
+}
+#head{
+	width : 1500;
+	height: 80px;
+	margin-top: -8px;
+	margin-right: -8px;
+	margin-left: -8px;
+	background-color: #f6f6f6;
+	position: fixed;
+	opacity: 0.9;
+
+}
+#header
+{
+	width : 1500;
+	height: 80px;
+	margin-top: -80px;
+	margin-right: -8px;
+	margin-left: -8px;
+	background-color: #f6f6f6;
+	position: fixed;
+	opacity: 0.9;
+}
+#border{
+	padding-top: :10px;
+	margin-top: 80px;
+	background-color: #f6f6f6;
+}
+#photo1{
+	float:right;
+}
+#textbl{
+	color: #ff9900;
+	font-family: "Ubuntu";
+	margin-left: 20em;
+	margin-top: -6em;
+}
+#textbl2{
+	margin-left: 2em;
+	margin-right: 2em;
+}
+#bg1{
+	margin-left: -10px;
+	margin-right: -10px;
+	height: 385px;
+	background-attachment: fixed;
+	background-image: url("oneworld(2).jpg");
+	background-size: 100% 465px;
+}
+#textbl4{
+	color: #ff9900;
+	font-family: "Ubuntu";
+	margin-left: 2em;
+	margin-top: 3.5em;
+	padding-right: 25em;
+}
+#textbl3{
+	margin-top: 10px;
+	margin-left: 2em;
+	padding-right: 22em;
+	color: #ff9900;
+	font-family: "Ubuntu";
+	
+}
+ul{
+	list-style-type: none;
+	position: fixed;
+	float: right;
+	margin-left:850px;
+	margin-top: 15px; 
+}
+li{
+	display: inline; 
+	padding: 50px;
+	padding-bottom: 30px;
+}
+#header:hover{
+	opacity:1.0;
+}
+li:hover{
+	background-color: #f0f0f0;
+	color: #ff9900;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+input {
+	float: left;
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none;
+}
+
+input[type=search] {
+	background: #ededed url(search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	height: 80px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #6dcff6;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+input[type=search] {
+	width: 80px;
+	padding-left: 20px;
+	color: transparent;
+	cursor: pointer;
+}
+input[type=search]:hover {
+	background-color: #fff;
+}
+input[type=search]:focus {
+	width: 850px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+input:-moz-placeholder {
+	color: transparent;
+}
+input::-webkit-input-placeholder {
+	color: transparent;
+}
