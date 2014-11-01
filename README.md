@@ -8,7 +8,7 @@ This project was an overnight effort for the college hackathon.
 
 
 THE IDEA:
-The them of the project and the hackathon was 'Visualization'.
+The theme of the project and the hackathon was 'Visualization'.
 
 WHAT IT DOES:
 The app is a literal translation of the theme. It basically takes in a string(in English) as input, 
