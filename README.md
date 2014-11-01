@@ -17,5 +17,5 @@ searches images for the words using Google Images API, concatinates them and pre
 PURPOSE AND UTILITY:
 The app merely extends the idea of the theme, taking the input(the sentence) to a higher level of abstraction
 (images) and presenting them.
-This app can serve as a global English(currently) translator bridging the gap between English speaking person 
+This app can serve as a global English(currently) translator bridging the gap between an English speaking person 
 and anyone who does not understand English. [Pictures are the language of the world]
